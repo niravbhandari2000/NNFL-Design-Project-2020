@@ -2,7 +2,7 @@
 
 This is the [project presentation.](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/NNFL%20Project%20Presentation.pdf)
 The [Main Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/ADRNN_Model_Final.ipynb)
-is the Associated Deep Recurrent Neural Network model.
+is the Associated Deep Recurrent Neural Network model which predicts Open Price, Low Price and High Price of a Stock.
 The [LSTM Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/LSTM_model_for_comparision.ipynb)
 and 
 [DRNN Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/DRNN_model_for_comparision.ipynb)
