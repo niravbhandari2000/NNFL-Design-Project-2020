@@ -31,7 +31,7 @@ These graphs depict the predicted values of all the output parameters of the mod
 
 The loss values for the Final Model(ADRNN) has been compared with the values of the DRNN as well the LSTM model respectively for different number of epochs in the folowing table. This table is thus able to prove the conclusion of the research paper which has been implemented, that the ADRNN Model is better than the rest of the models.
 
-|        |	              ADRNN              |	            DRNN                 |	            LSTM                 |
+|        |	         |   ADRNN   |           |	         |   DRNN    |           |	         |  LSTM     |           |
 | ------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | Epochs |	OP       |	LP       |	HP       |	OP       |	LP       |	HP       |	OP       |	LP       |	HP       |
 | 20     |	2.00E-05 |	4.00E-05 |	3.00E-05 |	5.00E-05 |	7.00E-05 |	5.00E-05 |	9.00E-05 |	1.50E-04 |	8.00E-05 |
