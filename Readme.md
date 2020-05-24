@@ -1,7 +1,13 @@
 # NNFL-Design-Project-2020
 
-ADRNN_Model_Final.ipynb is the main model file. The other python files are the models created for comparison
-with the main model.
+[Project Presentation](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/NNFL%20Project%20Presentation.pdf)
+
+[Main Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/ADRNN_Model_Final.ipynb)
+
+[LSTM Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/LSTM_model_for_comparision.ipynb)
+and 
+[DRNN Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/DRNN_model_for_comparision.ipynb)
+for comparison
  
 INSTRUCTIONS TO RUN ANY PYTHON FILE:
 1) For running any file, please open it with google colab, whose link is provided in the github repository itself. 
