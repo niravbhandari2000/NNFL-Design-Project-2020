@@ -16,3 +16,13 @@ INSTRUCTIONS TO RUN THE PYTHON FILE:
 file while running the command 'uploaded = files.upload()'. This will upload the 
    the dataset to the file.
 3) After this all the files will run smoothly.
+
+
+
+## Prediction by the final model:
+
+![Prediction by the final model](4fde2e14-dd6a-4cbc-a3b2-55e1f075c2a5.png)
+
+It is evident from the graph that the model works accurately. 
+
+This was compared with the existing models, and result was as follows:- 
