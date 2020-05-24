@@ -26,7 +26,7 @@ We have arbitrarily taken Tata Motors (ISIN: INE155A01022) stock prices. The fil
 1) To run any file, please open it with google colab, whose link is provided in the github repository itself. 
 2) You will have to upload the
 [tata_dataset.csv](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv)
-file while running the command 'uploaded = files.upload()'. This will upload the 
+file while running the command in the sixth code block 'uploaded = files.upload()'. This will upload the 
    the dataset to the file.
 3) After this all the files will run smoothly.
 
@@ -39,12 +39,3 @@ file while running the command 'uploaded = files.upload()'. This will upload the
 It is evident from the graph that the model works accurately. 
 
 This was compared with the existing models, and result was as follows:- 
-
-
-|        |	         |    ADRNN  |           |	         |  DRNN     |           |	         |  LSTM     |           |
-| ------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| Epochs |	OP       |	LP       |	HP       |	OP       |	LP       |	HP       |	OP       |	LP       |	HP       |
-| 20     |	2.00E-05 |	4.00E-05 |	3.00E-05 |	5.00E-05 |	7.00E-05 |	5.00E-05 |	9.00E-05 |	1.50E-04 |	8.00E-05 |
-| 40     |	2.00E-05 |	4.00E-05 |	2.00E-05 |	2.00E-05 |	5.00E-05 |	4.00E-05 |	4.00E-05 |	7.00E-05 |	4.00E-05 |
-| 60     |	1.37E-05 |	4.00E-05 |	2.00E-05 |	2.00E-05 |	4.00E-05 |	3.00E-05 |	2.00E-05 |	5.00E-05 |	3.00E-05 |
-
