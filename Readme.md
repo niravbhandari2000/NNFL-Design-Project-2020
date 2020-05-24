@@ -39,3 +39,10 @@ file while running the command in the sixth code block 'uploaded = files.upload(
 It is evident from the graph that the model works accurately. 
 
 This was compared with the existing models, and result was as follows:- 
+
+|        |	         |    ADRNN  |           |	         |  DRNN     |           |	         |  LSTM     |           |
+| ------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| Epochs |	OP       |	LP       |	HP       |	OP       |	LP       |	HP       |	OP       |	LP       |	HP       |
+| 20     |	2.00E-05 |	4.00E-05 |	3.00E-05 |	5.00E-05 |	7.00E-05 |	5.00E-05 |	9.00E-05 |	1.50E-04 |	8.00E-05 |
+| 40     |	2.00E-05 |	4.00E-05 |	2.00E-05 |	2.00E-05 |	5.00E-05 |	4.00E-05 |	4.00E-05 |	7.00E-05 |	4.00E-05 |
+| 60     |	1.37E-05 |	4.00E-05 |	2.00E-05 |	2.00E-05 |	4.00E-05 |	3.00E-05 |	2.00E-05 |	5.00E-05 |	3.00E-05 |
