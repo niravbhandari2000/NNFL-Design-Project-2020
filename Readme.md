@@ -1,16 +1,14 @@
 # NNFL-Design-Project-2020
 
-This the the [project presentation.](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/NNFL%20Project%20Presentation.pdf)
-
+This is the [project presentation.](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/NNFL%20Project%20Presentation.pdf)
 The [Main Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/ADRNN_Model_Final.ipynb)
 is the Associated Deep Recurrent Neural Network model.
-
 The [LSTM Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/LSTM_model_for_comparision.ipynb)
 and 
 [DRNN Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/DRNN_model_for_comparision.ipynb)
 are other existing models which are use for comparison against the main model.
  
-INSTRUCTIONS TO RUN THE PYTHON FILE:
+## INSTRUCTIONS TO RUN THE PYTHON FILE:
 1) For running any file, please open it with google colab, whose link is provided in the github repository itself. 
 2) You will have to upload the
 [tata_dataset.csv](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv)
