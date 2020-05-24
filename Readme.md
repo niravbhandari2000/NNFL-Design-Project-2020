@@ -7,7 +7,10 @@ The [LSTM Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/b
 and 
 [DRNN Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/DRNN_model_for_comparision.ipynb)
 are other existing models which are use for comparison against the main model.
- 
+
+## DATA
+The data files are the stock data which can be downloaded from [nseindia.com](https://www1.nseindia.com/products/content/equities/equities/eq_security.htm)
+We have arbitrarily taken Tata Motors (ISIN: INE155A01022) stock prices. The files are available in year wise data. We have concatenated 15 years of data [here](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv)
 ## INSTRUCTIONS TO RUN THE PYTHON FILE:
 1) To run any file, please open it with google colab, whose link is provided in the github repository itself. 
 2) You will have to upload the
