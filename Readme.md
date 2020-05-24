@@ -26,7 +26,7 @@ file while running the command 'uploaded = files.upload()'. This will upload the
 
 
 
-## Prediction by the final model:
+## PREDICTION BY THE FINAL MODEL
 
 ![Prediction by the final model](4fde2e14-dd6a-4cbc-a3b2-55e1f075c2a5.png)
 
