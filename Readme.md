@@ -11,7 +11,7 @@ is the Associated Deep Recurrent Neural Network model which predicts Open Price,
 The [LSTM Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/LSTM_model_for_comparision.ipynb)
 and 
 [DRNN Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/DRNN_model_for_comparision.ipynb)
-are other existing models which are use for comparison against the main model.
+are other existing models which are used for comparison against the main model.
 
 ## DATA
 The data files are the stock data which can be downloaded from [nseindia.com](https://www1.nseindia.com/products/content/equities/equities/eq_security.htm)
