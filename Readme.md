@@ -1,6 +1,6 @@
 # NNFL-Design-Project-2020
 
-ADRNN_128_64_with_global_scaling_TATA.ipynb is the main model file. The other python files are the models created for comparison
+ADRNN_Model_Final.ipynb is the main model file. The other python files are the models created for comparison
 with the main model.
  
 INSTRUCTIONS TO RUN ANY PYTHON FILE:
