@@ -21,7 +21,7 @@ The main model uses value predicted by one network as an input to another networ
 
 ## DATA
 The data files are the stock data which can be downloaded from [nseindia.com.](https://www1.nseindia.com/products/content/equities/equities/eq_security.htm)
-We have arbitrarily taken Tata Motors (ISIN: INE155A01022) stock prices. The files are available in year wise data. We have concatenated 15 years of data [here](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv). The user may take any other stock price as well.
+We have arbitrarily taken Tata Motors (ISIN: INE155A01022) stock prices. The files are available in year wise data. 15 years of data is concatenated [here](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv). The user may take any other stock price as well.
 
 ## PREDICTION BY THE FINAL MODEL
 
