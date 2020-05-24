@@ -22,15 +22,6 @@ The main model uses value predicted by one network as an input to another networ
 ## DATA
 The data files are the stock data which can be downloaded from [nseindia.com.](https://www1.nseindia.com/products/content/equities/equities/eq_security.htm)
 We have arbitrarily taken Tata Motors (ISIN: INE155A01022) stock prices. The files are available in year wise data. We have concatenated 15 years of data [here](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv). The user may take any other stock price as well.
-## INSTRUCTIONS TO RUN THE PYTHON FILE:
-1) To run any file, please open it with google colab, whose link is provided in the github repository itself. 
-2) You will have to upload the
-[tata_dataset.csv](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv)
-file while running the command in the sixth code block 'uploaded = files.upload()'. This will upload the 
-   the dataset to the file.
-3) After this all the files will run smoothly.
-
-
 
 ## PREDICTION BY THE FINAL MODEL
 
@@ -46,3 +37,19 @@ This was compared with the existing models, and result was as follows:-
 | 20     |	2.00E-05 |	4.00E-05 |	3.00E-05 |	5.00E-05 |	7.00E-05 |	5.00E-05 |	9.00E-05 |	1.50E-04 |	8.00E-05 |
 | 40     |	2.00E-05 |	4.00E-05 |	2.00E-05 |	2.00E-05 |	5.00E-05 |	4.00E-05 |	4.00E-05 |	7.00E-05 |	4.00E-05 |
 | 60     |	1.37E-05 |	4.00E-05 |	2.00E-05 |	2.00E-05 |	4.00E-05 |	3.00E-05 |	2.00E-05 |	5.00E-05 |	3.00E-05 |
+
+## ISSUES WITH GETTING IT TO WORK RIGHT:
+
+The major problem that was encountered during the training phase was that the model wasn’t treating the three LSTM layers differently, and considering it as one connected layer. Due to this our weights were not trained effectively which in turn gave a very high loss (~ 30%). 
+
+Therefore the three different layers were trained separately, and this approach gave the expected results and the loss was drastically improved.
+
+## INSTRUCTIONS TO RUN THE PYTHON FILE:
+1) To run any file, please open it with google colab, whose link is provided in the github repository itself. 
+2) You will have to upload the
+[tata_dataset.csv](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/tata_dataset.csv)
+file while running the command in the sixth code block 'uploaded = files.upload()'. This will upload the 
+   the dataset to the file.
+3) After this all the files will run smoothly.
+
+
