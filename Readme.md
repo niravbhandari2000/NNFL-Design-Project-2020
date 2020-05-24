@@ -6,12 +6,18 @@ This is the [link](https://link.springer.com/article/10.1007/s13042-019-01041-1)
 
 ## PROJECT PRESENTATION
 This is the [project presentation](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/NNFL%20Project%20Presentation.pdf).
+
+## MODEL FILES
 The [Main Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/ADRNN_Model_Final.ipynb)
 is the Associated Deep Recurrent Neural Network model which predicts Open Price, Low Price and High Price of a Stock.
 The [LSTM Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/LSTM_model_for_comparision.ipynb)
 and 
 [DRNN Model](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/DRNN_model_for_comparision.ipynb)
 are other existing models which are used for comparison against the main model.
+
+The main model uses value predicted by one network as an input to another network as shown in the figure below.
+![IMAGE](https://github.com/niravbhandari2000/NNFL-Design-Project-2020/blob/master/Model%20Architecture.png)
+
 
 ## DATA
 The data files are the stock data which can be downloaded from [nseindia.com.](https://www1.nseindia.com/products/content/equities/equities/eq_security.htm)
