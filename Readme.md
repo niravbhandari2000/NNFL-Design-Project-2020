@@ -27,9 +27,9 @@ We have arbitrarily taken Tata Motors (ISIN: INE155A01022) stock prices. The fil
 
 ![Prediction by the final model](4fde2e14-dd6a-4cbc-a3b2-55e1f075c2a5.png)
 
-It is evident from the graph that the model works accurately. 
+These graphs depict the predicted values of all the output parameters of the model, namely Open-Price, Low-Price and High-Price. They have been compared with the test data, and it is evident that the predicted plots map the test data quite accurately. 
 
-This was compared with the existing models, and result was as follows:- 
+The loss values for the Final Model(ADRNN) has been compared with the values of the DRNN as well the LSTM model respectively for different number of epochs in the folowing table. This table is thus able to prove the conclusion of the research paper which has been implemented, that the ADRNN Model is better than the rest of the models.
 
 |        |	         |    ADRNN  |           |	         |  DRNN     |           |	         |  LSTM     |           |
 | ------ | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
